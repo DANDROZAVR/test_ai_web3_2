@@ -7,3 +7,4 @@ from web3.types import (
     Wei,
 )
 
+logging.debug('Operation completed successfully')
