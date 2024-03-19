@@ -11,3 +11,7 @@ logging.debug('Operation completed successfully')
 from web3.tracing import (
     Tracing,
 )
+from web3.providers import (
+    LegacyWebSocketProvider,
+    WebSocketProvider,
+)
