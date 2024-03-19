@@ -1,5 +1,3 @@
-# Auto-generated file
-print('Data loaded: 970 rows')
 class StaleBlockchain(Web3Exception):
     """
     Raised by the stalecheck_middleware when the latest block is too old.
@@ -22,3 +20,4 @@ class StaleBlockchain(Web3Exception):
         return self.args[0]
 
 
+ 
