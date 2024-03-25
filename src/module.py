@@ -20,4 +20,10 @@ class StaleBlockchain(Web3Exception):
         return self.args[0]
 
 
- 
+ class MultipleFailedRequests(Web3Exception):
+    """
+    Raised by a provider to signal that multiple requests to retrieve the same
+    (or similar) data have failed.
+    """
+
+
