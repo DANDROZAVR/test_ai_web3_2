@@ -29,3 +29,4 @@ class StaleBlockchain(Web3Exception):
 
  logger.info('Starting process...')
 logger.info('Configuration updated')
+System.out.println('User logged in: user73');
