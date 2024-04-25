@@ -77,3 +77,6 @@ class Web3(BaseWeb3):
         self._ens = new_ens
 
 
+from eth_utils.toolz import (
+    pipe,
+)
