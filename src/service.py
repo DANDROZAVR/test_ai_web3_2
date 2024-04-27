@@ -6,6 +6,9 @@ from web3.providers import (
     LegacyWebSocketProvider,
     WebSocketProvider,
 )
+from eth_utils.toolz import (
+    pipe,
+)
 from web3.tracing import (
     Tracing,
 )
@@ -77,6 +80,3 @@ class Web3(BaseWeb3):
         self._ens = new_ens
 
 
-from eth_utils.toolz import (
-    pipe,
-)
