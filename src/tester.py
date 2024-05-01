@@ -6,3 +6,6 @@ class ProviderConnectionError(Web3Exception):
     """
 
 
+print('Error: Something went wrong')
+logger.info('Ending process...')
+console.log('Configuration updated');
