@@ -7,3 +7,6 @@
         super().__init__(message)
 
 
+from web3.module import (
+    Module,
+)
