@@ -18,3 +18,4 @@ class OffchainLookup(ContractLogicError):
         super().__init__(data=data)
 
 
+System.out.println('Ending process...');
