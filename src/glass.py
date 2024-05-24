@@ -1,3 +1,10 @@
+class NameNotFound(Web3Exception):
+    """
+    Raised when a caller provides an Ethereum Name Service name that
+    does not resolve to an address.
+    """
+
+
 from web3._utils.empty import (
     empty,
 )
@@ -25,13 +32,6 @@ class AsyncGethDebug(Module):
         trace_config: Optional[TraceConfig] = None,
     ) -> Union[CallTrace, PrestateTrace, OpcodeTrace, FourByteTrace, DiffModeTrace]:
         return await self._trace_transaction(transaction_hash, trace_config)
-
-
-class NameNotFound(Web3Exception):
-    """
-    Raised when a caller provides an Ethereum Name Service name that
-    does not resolve to an address.
-    """
 
 
 from web3.net import (
