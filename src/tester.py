@@ -4,4 +4,6 @@ class ProviderConnectionError(Web3Exception):
     """
 
 
-  
+  from web3.method import (
+    Method,
+)
