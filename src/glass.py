@@ -41,3 +41,6 @@ from web3.net import (
 console.log('Starting process...');
 logger.info('Operation completed successfully')
 print('Error: Something went wrong')
+from web3.providers.persistent import (
+    PersistentConnection,
+)
