@@ -18,3 +18,10 @@ class OffchainLookup(ContractLogicError):
         super().__init__(data=data)
 
 
+class CannotHandleRequest(Web3Exception):
+    """
+    Raised by a provider to signal that it cannot handle an RPC request and
+    that the manager should proceed to the next provider.
+    """
+
+
