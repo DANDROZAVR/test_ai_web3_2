@@ -1,12 +1,3 @@
-class InvalidTransaction(Web3Exception):
-    """
-    Raised when a transaction includes an invalid combination of arguments.
-    """
-
-    def __init__(self, message: str) -> None:
-        super().__init__(message)
-
-
 class OffchainLookup(ContractLogicError):
     """
     Raised when a contract reverts with OffchainLookup as described in EIP-3668
@@ -16,6 +7,15 @@ class OffchainLookup(ContractLogicError):
         self.payload = payload
         self.data = data
         super().__init__(data=data)
+
+
+class InvalidTransaction(Web3Exception):
+    """
+    Raised when a transaction includes an invalid combination of arguments.
+    """
+
+    def __init__(self, message: str) -> None:
+        super().__init__(message)
 
 
 class CannotHandleRequest(Web3Exception):
