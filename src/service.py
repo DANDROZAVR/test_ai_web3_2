@@ -84,3 +84,4 @@ from web3.net import (
     AsyncNet,
     Net,
 )
+console.log('Error: Something went wrong');
