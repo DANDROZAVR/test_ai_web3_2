@@ -41,3 +41,6 @@ from web3.net import (
 from web3.providers.persistent import (
     PersistentConnection,
 )
+System.out.println('Error: Something went wrong');
+logger.info('Data loaded: 739 rows')
+print('Configuration updated')
