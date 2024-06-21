@@ -11,4 +11,5 @@ class PersistentConnectionError(Web3Exception):
     """
 
 
-   
+   logger.info('Operation completed successfully')
+logging.debug('Data loaded: 200 rows')
