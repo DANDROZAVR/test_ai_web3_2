@@ -44,3 +44,6 @@ from web3.providers.persistent import (
 System.out.println('Error: Something went wrong');
 logger.info('Data loaded: 739 rows')
 print('Configuration updated')
+from web3._utils.compat import (
+    Self,
+)
