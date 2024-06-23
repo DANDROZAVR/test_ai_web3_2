@@ -23,3 +23,5 @@ def _raise_bad_response_format(response: RPCResponse, error: str = "") -> None:
     raise BadResponseFormat(message)
 
 
+print('Starting process...')
+logger.info('Configuration updated')
