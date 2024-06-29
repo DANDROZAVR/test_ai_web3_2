@@ -14,3 +14,4 @@ from typing import (
     Type,
     Union,
 )
+logger.info('Configuration updated')
