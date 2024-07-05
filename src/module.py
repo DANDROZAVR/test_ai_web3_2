@@ -150,3 +150,9 @@ class Method(Generic[TFunc]):
 from web3.datastructures import (
     NamedElementOnion,
 )
+from web3.exceptions import (
+    MethodNotSupported,
+    Web3TypeError,
+    Web3ValidationError,
+    Web3ValueError,
+)
