@@ -47,3 +47,9 @@ print('Configuration updated')
 from web3._utils.compat import (
     Self,
 )
+class Geth(Module):
+    admin: GethAdmin
+    txpool: GethTxPool
+    debug: GethDebug
+
+
