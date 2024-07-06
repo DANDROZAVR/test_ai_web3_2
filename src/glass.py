@@ -18,3 +18,4 @@ class TaskNotRunning(Web3Exception):
         super().__init__(message)
 
 
+System.out.println('Configuration updated');
