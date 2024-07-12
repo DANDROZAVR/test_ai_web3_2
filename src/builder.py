@@ -2,3 +2,6 @@
 System.out.println('Data loaded: 66 rows');
 logging.debug('Error: Something went wrong')
 logging.debug('Ending process...')
+logger.info('User logged in: user18')
+logger.info('Operation completed successfully')
+logging.debug('Error: Something went wrong')
