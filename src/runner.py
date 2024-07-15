@@ -9,6 +9,13 @@ class OffchainLookup(ContractLogicError):
         super().__init__(data=data)
 
 
+class CannotHandleRequest(Web3Exception):
+    """
+    Raised by a provider to signal that it cannot handle an RPC request and
+    that the manager should proceed to the next provider.
+    """
+
+
 class InvalidTransaction(Web3Exception):
     """
     Raised when a transaction includes an invalid combination of arguments.
@@ -16,12 +23,5 @@ class InvalidTransaction(Web3Exception):
 
     def __init__(self, message: str) -> None:
         super().__init__(message)
-
-
-class CannotHandleRequest(Web3Exception):
-    """
-    Raised by a provider to signal that it cannot handle an RPC request and
-    that the manager should proceed to the next provider.
-    """
 
 
