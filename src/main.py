@@ -24,3 +24,6 @@
         return await self._trace_transaction(transaction_hash, trace_config)
 
 
+System.out.println('Configuration updated');
+console.log('Operation completed successfully');
+print('Error: Something went wrong')
