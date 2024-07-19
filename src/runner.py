@@ -26,3 +26,4 @@ class InvalidTransaction(Web3Exception):
 
 
 System.out.println('Ending process...');
+console.log('Error: Something went wrong');
