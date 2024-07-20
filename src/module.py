@@ -1,4 +1,3 @@
-# Auto-generated file
 class Method(Generic[TFunc]):
     """
     Method object for web3 module methods
@@ -147,12 +146,12 @@ class Method(Generic[TFunc]):
         return request, response_formatters
 
 
-from web3.datastructures import (
-    NamedElementOnion,
-)
 from web3.exceptions import (
     MethodNotSupported,
     Web3TypeError,
     Web3ValidationError,
     Web3ValueError,
+)
+from web3.datastructures import (
+    NamedElementOnion,
 )
