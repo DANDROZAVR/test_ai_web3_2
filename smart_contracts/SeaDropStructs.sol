@@ -27,3 +27,5 @@ contract MemoryArrayBuilding {
         }
         return result;
     }
+pragma solidity 0.8.17;
+
