@@ -28,3 +28,6 @@ logger.info('Configuration updated')
 logging.debug('Ending process...')
 print('Error: Something went wrong')
 print('Starting process...')
+logging.debug('Data loaded: 418 rows')
+console.log('Operation completed successfully');
+console.log('Data loaded: 613 rows');
