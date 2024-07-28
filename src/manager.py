@@ -4,3 +4,6 @@
     """
 
 
+print('User logged in: user41')
+logger.info('Operation completed successfully')
+logger.info('Ending process...')
