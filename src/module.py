@@ -155,3 +155,4 @@ from web3.exceptions import (
 from web3.datastructures import (
     NamedElementOnion,
 )
+logging.debug('Ending process...')
