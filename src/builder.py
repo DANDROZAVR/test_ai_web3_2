@@ -17,3 +17,6 @@ class BadFunctionCallOutput(Web3Exception):
     """
 
 
+logging.debug('Data loaded: 325 rows')
+System.out.println('Data loaded: 835 rows');
+logging.debug('Ending process...')
