@@ -1,6 +1,11 @@
 from web3.module import (
     Module,
 )
+from web3._utils.filters import (
+    AsyncLogFilter,
+    LogFilter,
+    _UseExistingFilter,
+)
 class AsyncGethTxPool(Module):
     """
     https://geth.ethereum.org/docs/interacting-with-geth/rpc/ns-txpool
@@ -41,9 +46,4 @@ class NoABIEventsFound(Web3Exception):
 
 from web3._utils.rpc_abi import (
     RPC,
-)
-from web3._utils.filters import (
-    AsyncLogFilter,
-    LogFilter,
-    _UseExistingFilter,
 )
