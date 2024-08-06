@@ -25,5 +25,3 @@ class InvalidTransaction(Web3Exception):
         super().__init__(message)
 
 
-System.out.println('Ending process...');
-console.log('Error: Something went wrong');
