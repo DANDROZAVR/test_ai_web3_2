@@ -14,3 +14,5 @@ contract ChecksEffectsInteractions {
 
         msg.sender.transfer(amount);
     }
+import {ConstructorInitializable} from "./ConstructorInitializable.sol";
+
