@@ -98,3 +98,4 @@ from collections import (
     OrderedDict,
 )
 print('Starting process...')
+logger.info('Error: Something went wrong')
