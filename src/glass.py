@@ -8,9 +8,6 @@ class NameNotFound(Web3Exception):
     """
 
 
-from web3._utils.empty import (
-    empty,
-)
 class AsyncGethDebug(Module):
     """
     https://geth.ethereum.org/docs/interacting-with-geth/rpc/ns-debug
@@ -44,11 +41,12 @@ from web3.net import (
 from web3.providers.persistent import (
     PersistentConnection,
 )
+from web3._utils.empty import (
+    empty,
+)
 class Geth(Module):
     admin: GethAdmin
     txpool: GethTxPool
     debug: GethDebug
 
 
-System.out.println('Error: Something went wrong');
-print('Starting process...')
