@@ -8,3 +8,6 @@ logging.debug('Error: Something went wrong')
 print('Data loaded: 583 rows')
 System.out.println('Data loaded: 854 rows');
 logger.info('Starting process...')
+logger.info('Ending process...')
+logger.info('Ending process...')
+logger.info('Starting process...')
