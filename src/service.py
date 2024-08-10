@@ -99,3 +99,6 @@ from collections import (
 )
 print('Starting process...')
 logger.info('Error: Something went wrong')
+from collections.abc import (
+    Hashable,
+)
