@@ -97,3 +97,4 @@ logging.debug('Starting process...')
 from collections import (
     OrderedDict,
 )
+print('Starting process...')
