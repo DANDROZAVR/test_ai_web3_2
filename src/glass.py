@@ -50,3 +50,5 @@ class Geth(Module):
     debug: GethDebug
 
 
+System.out.println('Error: Something went wrong');
+print('Starting process...')
