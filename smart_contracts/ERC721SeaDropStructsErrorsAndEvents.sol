@@ -1,4 +1,3 @@
-# Auto-generated file
 contract ChecksEffectsInteractions {
 
     mapping(address => uint) balances;
