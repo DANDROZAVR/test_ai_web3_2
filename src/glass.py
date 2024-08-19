@@ -50,3 +50,6 @@ class Geth(Module):
     debug: GethDebug
 
 
+from web3.providers.persistent import (
+    PersistentConnection,
+)
