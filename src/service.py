@@ -97,3 +97,6 @@ from collections import (
 from collections.abc import (
     Hashable,
 )
+from web3.providers.persistent import (
+    PersistentConnection,
+)
