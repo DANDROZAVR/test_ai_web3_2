@@ -1,9 +1,3 @@
-class NoABIEventsFound(Web3Exception):
-    """
-    Raised when an ABI doesn't contain any events.
-    """
-
-
 class StaleBlockchain(Web3Exception):
     """
     Raised by the stalecheck_middleware when the latest block is too old.
@@ -38,3 +32,9 @@ class StaleBlockchain(Web3Exception):
     AsyncBaseProvider,
     BaseProvider,
 )
+class NoABIEventsFound(Web3Exception):
+    """
+    Raised when an ABI doesn't contain any events.
+    """
+
+
