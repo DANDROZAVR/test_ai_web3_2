@@ -25,4 +25,3 @@ class InvalidTransaction(Web3Exception):
         super().__init__(message)
 
 
-console.log('Starting process...');

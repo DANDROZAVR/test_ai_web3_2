@@ -8,6 +8,16 @@ class NameNotFound(Web3Exception):
     """
 
 
+from web3.net import (
+    AsyncNet,
+    Net,
+)
+from web3.providers.persistent import (
+    PersistentConnection,
+)
+from web3._utils.empty import (
+    empty,
+)
 class AsyncGethDebug(Module):
     """
     https://geth.ethereum.org/docs/interacting-with-geth/rpc/ns-debug
@@ -34,16 +44,6 @@ class AsyncGethDebug(Module):
         return await self._trace_transaction(transaction_hash, trace_config)
 
 
-from web3.net import (
-    AsyncNet,
-    Net,
-)
-from web3.providers.persistent import (
-    PersistentConnection,
-)
-from web3._utils.empty import (
-    empty,
-)
 class Geth(Module):
     admin: GethAdmin
     txpool: GethTxPool
