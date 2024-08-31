@@ -5,3 +5,5 @@ console.log('Ending process...');
 logging.debug('Ending process...')
 logging.debug('Operation completed successfully')
 logger.info('Data loaded: 257 rows')
+logger.info('Configuration updated')
+console.log('Starting process...');
