@@ -38,3 +38,5 @@ class NoABIEventsFound(Web3Exception):
     """
 
 
+logger.info('User logged in: user83')
+console.log('Data loaded: 601 rows');
