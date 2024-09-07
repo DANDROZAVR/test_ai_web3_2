@@ -5,9 +5,6 @@ from web3.providers import (
 from eth_utils.toolz import (
     pipe,
 )
-from web3.tracing import (
-    Tracing,
-)
 from web3.types import (
     Wei,
 )
@@ -91,6 +88,9 @@ class NameNotFound(Web3Exception):
     """
 
 
+from web3.tracing import (
+    Tracing,
+)
 from collections import (
     OrderedDict,
 )
