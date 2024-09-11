@@ -47,3 +47,14 @@ class NoABIEventsFound(Web3Exception):
     """
 
 
+from web3.types import (
+    BlockIdentifier,
+    BlockTrace,
+    FilterTrace,
+    TraceFilterParams,
+    TraceMode,
+    TxParams,
+    _Hash32,
+)
+
+
