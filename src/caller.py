@@ -36,17 +36,17 @@ class AsyncGethTxPool(Module):
         return await self._status()
 
 
-from web3._utils.filters import (
-    AsyncLogFilter,
-    LogFilter,
-    _UseExistingFilter,
-)
 class NoABIEventsFound(Web3Exception):
     """
     Raised when an ABI doesn't contain any events.
     """
 
 
+from web3._utils.filters import (
+    AsyncLogFilter,
+    LogFilter,
+    _UseExistingFilter,
+)
 from web3.types import (
     BlockIdentifier,
     BlockTrace,
