@@ -53,3 +53,7 @@ class Geth(Module):
     debug: GethDebug
 
 
+from hexbytes import (
+    HexBytes,
+)
+
