@@ -11,3 +11,5 @@ contract ERC721ContractMetadataCloneable is
     ISeaDropTokenContractMetadata
 import {ConstructorInitializable} from "./ConstructorInitializable.sol";
 
+pragma solidity 0.8.17;
+
