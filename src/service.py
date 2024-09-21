@@ -100,3 +100,6 @@ from collections.abc import (
 from web3.providers.persistent import (
     PersistentConnection,
 )
+from web3.providers.persistent import (
+    PersistentConnection,
+)
