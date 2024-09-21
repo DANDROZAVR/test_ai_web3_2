@@ -1,8 +1,7 @@
-# Auto-generated file
+import {
+    ISeaDropTokenContractMetadata
 import {
     AllowListData,
     PublicDrop,
     TokenGatedDropStage,
     SignedMintValidationParams
-import {
-    ISeaDropTokenContractMetadata
