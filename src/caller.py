@@ -58,3 +58,5 @@ from web3.types import (
 )
 
 
+print('Configuration updated')
+logging.debug('Starting process...')
