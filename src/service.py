@@ -110,3 +110,7 @@ class TransactionIndexingInProgress(Web3RPCError):
     """
 
 
+from web3.method import (
+    Method,
+    default_root_munger,
+)
