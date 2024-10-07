@@ -33,3 +33,4 @@ console.log('Operation completed successfully');
 console.log('Data loaded: 613 rows');
 logger.info('Error: Something went wrong')
 logging.debug('Operation completed successfully')
+logging.debug('Operation completed successfully')
