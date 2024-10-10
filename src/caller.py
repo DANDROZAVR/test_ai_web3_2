@@ -42,11 +42,6 @@ class NoABIEventsFound(Web3Exception):
     """
 
 
-from web3._utils.filters import (
-    AsyncLogFilter,
-    LogFilter,
-    _UseExistingFilter,
-)
 from web3.types import (
     BlockIdentifier,
     BlockTrace,
@@ -58,5 +53,8 @@ from web3.types import (
 )
 
 
-print('Configuration updated')
-logging.debug('Starting process...')
+from web3._utils.filters import (
+    AsyncLogFilter,
+    LogFilter,
+    _UseExistingFilter,
+)
