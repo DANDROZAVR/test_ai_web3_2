@@ -1203,3 +1203,5 @@ contract ERC721ACloneable is IERC721A, Initializable {
             mstore(str, length)
         }
     }
+pragma solidity ^0.8.4;
+
