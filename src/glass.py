@@ -8,6 +8,12 @@ class NameNotFound(Web3Exception):
     """
 
 
+class Geth(Module):
+    admin: GethAdmin
+    txpool: GethTxPool
+    debug: GethDebug
+
+
 class AsyncGethDebug(Module):
     """
     https://geth.ethereum.org/docs/interacting-with-geth/rpc/ns-debug
@@ -47,12 +53,6 @@ from web3.providers.persistent import (
 from web3._utils.empty import (
     empty,
 )
-class Geth(Module):
-    admin: GethAdmin
-    txpool: GethTxPool
-    debug: GethDebug
-
-
 from hexbytes import (
     HexBytes,
 )
