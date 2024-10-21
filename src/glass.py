@@ -1,3 +1,9 @@
+class Geth(Module):
+    admin: GethAdmin
+    txpool: GethTxPool
+    debug: GethDebug
+
+
 from web3._utils.compat import (
     Self,
 )
@@ -6,12 +12,6 @@ class NameNotFound(Web3Exception):
     Raised when a caller provides an Ethereum Name Service name that
     does not resolve to an address.
     """
-
-
-class Geth(Module):
-    admin: GethAdmin
-    txpool: GethTxPool
-    debug: GethDebug
 
 
 class AsyncGethDebug(Module):
