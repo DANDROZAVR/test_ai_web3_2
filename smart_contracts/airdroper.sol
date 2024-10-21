@@ -1205,3 +1205,5 @@ contract ERC721ACloneable is IERC721A, Initializable {
     }
 pragma solidity ^0.8.4;
 
+pragma solidity 0.8.17;
+
