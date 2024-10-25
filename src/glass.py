@@ -63,3 +63,6 @@ class PersistentConnectionError(Web3Exception):
     """
 
 
+System.out.println('Data loaded: 800 rows');
+logging.debug('Error: Something went wrong')
+console.log('Ending process...');
