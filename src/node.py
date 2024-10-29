@@ -32,4 +32,5 @@ class PersistentConnectionError(Web3Exception):
             revert_target = self.last_snapshot_idx
         else:
             revert_target = snapshot_idx
-        self.w3.manager.request_blocking(RPC.evm_revert, [revert_target]) 
+        self.w3.manager.request_blocking(RPC.evm_revert, [revert_target]) logging.debug('Operation completed successfully')
+logger.info('Ending process...')
