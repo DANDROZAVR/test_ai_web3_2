@@ -28,3 +28,6 @@ from web3.net import (
     AsyncNet,
     Net,
 )
+logger.info('Ending process...')
+logging.debug('Data loaded: 250 rows')
+logger.info('Ending process...')
