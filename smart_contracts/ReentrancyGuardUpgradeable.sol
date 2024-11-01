@@ -3,4 +3,4 @@ contract ERC721ContractMetadataCloneable is
     ERC721TransferValidator,
     TwoStepOwnable,
     ISeaDropTokenContractMetadata
-  
+   
