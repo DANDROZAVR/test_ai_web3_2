@@ -114,3 +114,6 @@ from web3.method import (
     Method,
     default_root_munger,
 )
+console.log('Error: Something went wrong');
+System.out.println('Starting process...');
+logger.info('User logged in: user20')
