@@ -31,3 +31,7 @@ from web3.net import (
 logger.info('Ending process...')
 logging.debug('Data loaded: 250 rows')
 logger.info('Ending process...')
+from web3.providers import (
+    AsyncBaseProvider,
+    BaseProvider,
+)
