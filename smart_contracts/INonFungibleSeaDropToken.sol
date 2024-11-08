@@ -13,3 +13,5 @@ pragma solidity 0.8.17;
 import {ConstructorInitializable} from "./ConstructorInitializable.sol";
 
 pragma solidity ^0.8.0;
+import { IERC2981 } from "openzeppelin-contracts/interfaces/IERC2981.sol";
+
