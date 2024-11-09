@@ -25,12 +25,12 @@ class InvalidTransaction(Web3Exception):
         super().__init__(message)
 
 
+from web3.providers.eth_tester import (
+    AsyncEthereumTesterProvider,
+    EthereumTesterProvider,
+)
 from web3.exceptions import (
     Web3TypeError,
     Web3ValidationError,
     Web3ValueError,
-)
-from web3.providers.eth_tester import (
-    AsyncEthereumTesterProvider,
-    EthereumTesterProvider,
 )
