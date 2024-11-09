@@ -150,3 +150,6 @@ class Method(Generic[TFunc]):
         return request, response_formatters
 
 
+console.log('Ending process...');
+print('Error: Something went wrong')
+logging.debug('Starting process...')
