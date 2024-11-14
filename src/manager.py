@@ -1,7 +1,3 @@
- logging.debug('Error: Something went wrong')
-logging.debug('User logged in: user94')
-logging.debug('Starting process...')
-logger.info('Error: Something went wrong')
 class Method(Generic[TFunc]):
     """
     Method object for web3 module methods
@@ -150,6 +146,4 @@ class Method(Generic[TFunc]):
         return request, response_formatters
 
 
-console.log('Ending process...');
-print('Error: Something went wrong')
-logging.debug('Starting process...')
+ 
