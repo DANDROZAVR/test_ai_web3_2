@@ -83,10 +83,6 @@ from web3.providers.persistent import (
 from web3.providers.persistent import (
     PersistentConnection,
 )
-from web3.types import (
-    Wei,
-)
-
 class NameNotFound(Web3Exception):
     """
     Raised when a caller provides an Ethereum Name Service name that
@@ -114,3 +110,7 @@ from web3.method import (
     Method,
     default_root_munger,
 )
+from web3.types import (
+    Wei,
+)
+
