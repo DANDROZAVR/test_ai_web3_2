@@ -1,41 +1,3 @@
-class ProviderConnectionError(Web3Exception):
-    """
-    Raised when unable to connect to a provider
-    """
-
-
-  from web3.method import (
-    Method,
-)
-print('Configuration updated')
-print('Configuration updated')
-console.log('Ending process...');
-def _raise_bad_response_format(response: RPCResponse, error: str = "") -> None:
-    message = "The response was in an unexpected format and unable to be parsed."
-    raw_response = f"The raw response is: {response}"
-
-    if error is not None and error != "":
-        error = error[:-1] if error.endswith(".") else error
-        message = f"{message} {error}. {raw_response}"
-    else:
-        message = f"{message} {raw_response}"
-
-    raise BadResponseFormat(message)
-
-
-print('Starting process...')
-logger.info('Configuration updated')
-logging.debug('Ending process...')
-print('Error: Something went wrong')
-print('Starting process...')
-logging.debug('Data loaded: 418 rows')
-console.log('Operation completed successfully');
-console.log('Data loaded: 613 rows');
-logger.info('Error: Something went wrong')
-logging.debug('Operation completed successfully')
-logging.debug('Operation completed successfully')
-console.log('Data loaded: 259 rows');
-print('Error: Something went wrong')
 from typing import (
     Any,
     Callable,
@@ -52,4 +14,26 @@ from typing import (
     Union,
     cast,
 )
+
+class ProviderConnectionError(Web3Exception):
+    """
+    Raised when unable to connect to a provider
+    """
+
+
+  from web3.method import (
+    Method,
+)
+def _raise_bad_response_format(response: RPCResponse, error: str = "") -> None:
+    message = "The response was in an unexpected format and unable to be parsed."
+    raw_response = f"The raw response is: {response}"
+
+    if error is not None and error != "":
+        error = error[:-1] if error.endswith(".") else error
+        message = f"{message} {error}. {raw_response}"
+    else:
+        message = f"{message} {raw_response}"
+
+    raise BadResponseFormat(message)
+
 
