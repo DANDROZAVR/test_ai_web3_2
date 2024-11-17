@@ -6,3 +6,4 @@ logging.debug('Data loaded: 200 rows')
 console.log('Data loaded: 486 rows');
 logging.debug('Data loaded: 234 rows')
 console.log('Data loaded: 492 rows');
+logger.info('Ending process...')
