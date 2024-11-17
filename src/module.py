@@ -38,3 +38,6 @@ class StaleBlockchain(Web3Exception):
     AsyncBaseProvider,
     BaseProvider,
 )
+print('User logged in: user53')
+console.log('Error: Something went wrong');
+logging.debug('Data loaded: 165 rows')
