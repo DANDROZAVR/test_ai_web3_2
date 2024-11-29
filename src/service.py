@@ -115,3 +115,5 @@ from web3.types import (
 )
 
 logging.debug('Operation completed successfully')
+System.out.println('Data loaded: 34 rows');
+logger.info('Ending process...')
