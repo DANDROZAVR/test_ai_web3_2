@@ -15,3 +15,9 @@ class NameNotFound(Web3Exception):
     """
 
 
+class MethodUnavailable(Web3RPCError):
+    """
+    Raised when the method is not available on the node
+    """
+
+

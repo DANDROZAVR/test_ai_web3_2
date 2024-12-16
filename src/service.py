@@ -12,6 +12,10 @@ from web3.types import (
     Wei,
 )
 
+from web3.net import (
+    AsyncNet,
+    Net,
+)
 class Web3(BaseWeb3):
     # mypy types
     eth: Eth
@@ -80,11 +84,6 @@ class Web3(BaseWeb3):
         self._ens = new_ens
 
 
-from web3.net import (
-    AsyncNet,
-    Net,
-)
-console.log('Error: Something went wrong');
 class NameNotFound(Web3Exception):
     """
     Raised when a caller provides an Ethereum Name Service name that
@@ -92,10 +91,9 @@ class NameNotFound(Web3Exception):
     """
 
 
-console.log('Starting process...');
-logging.debug('Starting process...')
 from collections import (
     OrderedDict,
 )
-print('Starting process...')
-logger.info('Error: Something went wrong')
+from collections.abc import (
+    Hashable,
+)
