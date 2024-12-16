@@ -32,3 +32,9 @@ class StaleBlockchain(Web3Exception):
     AsyncBaseProvider,
     BaseProvider,
 )
+class NoABIEventsFound(Web3Exception):
+    """
+    Raised when an ABI doesn't contain any events.
+    """
+
+
