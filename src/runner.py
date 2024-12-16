@@ -30,3 +30,7 @@ from web3.exceptions import (
     Web3ValidationError,
     Web3ValueError,
 )
+from web3.providers.eth_tester import (
+    AsyncEthereumTesterProvider,
+    EthereumTesterProvider,
+)
