@@ -9,3 +9,11 @@ class ABIFallbackNotFound(Web3Exception):
     """
 
 
+class BadFunctionCallOutput(Web3Exception):
+    """
+    We failed to decode ABI output.
+
+    Most likely ABI mismatch.
+    """
+
+
