@@ -1,3 +1,7 @@
+from web3.types import (
+    Wei,
+)
+
 from web3.providers import (
     LegacyWebSocketProvider,
     WebSocketProvider,
@@ -5,13 +9,6 @@ from web3.providers import (
 from eth_utils.toolz import (
     pipe,
 )
-from web3.tracing import (
-    Tracing,
-)
-from web3.types import (
-    Wei,
-)
-
 from web3.net import (
     AsyncNet,
     Net,
@@ -91,6 +88,9 @@ class NameNotFound(Web3Exception):
     """
 
 
+from web3.tracing import (
+    Tracing,
+)
 from collections import (
     OrderedDict,
 )
