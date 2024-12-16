@@ -80,3 +80,7 @@ class Web3(BaseWeb3):
         self._ens = new_ens
 
 
+from web3.net import (
+    AsyncNet,
+    Net,
+)

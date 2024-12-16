@@ -1,3 +1,10 @@
+class NameNotFound(Web3Exception):
+    """
+    Raised when a caller provides an Ethereum Name Service name that
+    does not resolve to an address.
+    """
+
+
 from web3._utils.empty import (
     empty,
 )
@@ -27,20 +34,10 @@ class AsyncGethDebug(Module):
         return await self._trace_transaction(transaction_hash, trace_config)
 
 
-class NameNotFound(Web3Exception):
-    """
-    Raised when a caller provides an Ethereum Name Service name that
-    does not resolve to an address.
-    """
-
-
 from web3.net import (
     AsyncNet,
     Net,
 )
-console.log('Starting process...');
-logger.info('Operation completed successfully')
-print('Error: Something went wrong')
 from web3.providers.persistent import (
     PersistentConnection,
 )
