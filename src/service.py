@@ -81,6 +81,12 @@ class Web3(BaseWeb3):
         self._ens = new_ens
 
 
+from web3.providers.persistent import (
+    PersistentConnection,
+)
+from web3.providers.persistent import (
+    PersistentConnection,
+)
 class NameNotFound(Web3Exception):
     """
     Raised when a caller provides an Ethereum Name Service name that
@@ -97,9 +103,14 @@ from collections import (
 from collections.abc import (
     Hashable,
 )
-from web3.providers.persistent import (
-    PersistentConnection,
-)
-from web3.providers.persistent import (
-    PersistentConnection,
+class TransactionIndexingInProgress(Web3RPCError):
+    """
+    Raised when a transaction receipt is not yet available due to transaction indexing
+    still being in progress.
+    """
+
+
+from web3.method import (
+    Method,
+    default_root_munger,
 )
