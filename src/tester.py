@@ -7,3 +7,6 @@ class ProviderConnectionError(Web3Exception):
   from web3.method import (
     Method,
 )
+print('Configuration updated')
+print('Configuration updated')
+console.log('Ending process...');
