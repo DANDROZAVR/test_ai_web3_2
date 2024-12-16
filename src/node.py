@@ -33,7 +33,4 @@ class PersistentConnectionError(Web3Exception):
         else:
             revert_target = snapshot_idx
         self.w3.manager.request_blocking(RPC.evm_revert, [revert_target]) logging.debug('Operation completed successfully')
-logger.info('Ending process...')
-print('Data loaded: 676 rows')
-logger.info('Error: Something went wrong')
-logger.info('Ending process...')
+ 

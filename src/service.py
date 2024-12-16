@@ -5,6 +5,10 @@ from web3.providers import (
 from eth_utils.toolz import (
     pipe,
 )
+from web3.types import (
+    Wei,
+)
+
 from web3.net import (
     AsyncNet,
     Net,
@@ -110,12 +114,3 @@ from web3.method import (
     Method,
     default_root_munger,
 )
-from web3.types import (
-    Wei,
-)
-
-logging.debug('Operation completed successfully')
-System.out.println('Data loaded: 34 rows');
-logger.info('Ending process...')
-System.out.println('Error: Something went wrong');
-print('Ending process...')

@@ -65,3 +65,4 @@ class ReadBufferLimitReached(PersistentConnectionError, Web3ValueError):
 from web3.module import (
     Module,
 )
+console.log('Data loaded: 383 rows');
