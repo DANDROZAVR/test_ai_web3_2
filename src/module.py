@@ -28,4 +28,4 @@ class StaleBlockchain(Web3Exception):
 
 
  logger.info('Starting process...')
- 
+  

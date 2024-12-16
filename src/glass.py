@@ -1,4 +1,3 @@
-# Auto-generated file
 from web3._utils.empty import (
     empty,
 )
@@ -35,3 +34,7 @@ class NameNotFound(Web3Exception):
     """
 
 
+from web3.net import (
+    AsyncNet,
+    Net,
+)
