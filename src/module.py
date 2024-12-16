@@ -27,4 +27,5 @@ class StaleBlockchain(Web3Exception):
     """
 
 
- 
+ logger.info('Starting process...')
+logger.info('Configuration updated')
