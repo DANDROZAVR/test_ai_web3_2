@@ -57,3 +57,15 @@ from hexbytes import (
     HexBytes,
 )
 
+class PersistentConnectionError(Web3Exception):
+    """
+    Raised when a persistent connection encounters an error.
+    """
+
+
+System.out.println('Data loaded: 800 rows');
+logging.debug('Error: Something went wrong')
+console.log('Ending process...');
+logging.debug('Configuration updated')
+logging.debug('User logged in: user26')
+print('Data loaded: 732 rows')
