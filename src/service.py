@@ -1,7 +1,3 @@
-from web3.types import (
-    Wei,
-)
-
 from web3.providers import (
     LegacyWebSocketProvider,
     WebSocketProvider,
@@ -12,6 +8,10 @@ from eth_utils.toolz import (
 from web3.tracing import (
     Tracing,
 )
+from web3.types import (
+    Wei,
+)
+
 class Web3(BaseWeb3):
     # mypy types
     eth: Eth
