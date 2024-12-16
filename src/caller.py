@@ -4,11 +4,6 @@ from web3.module import (
 from web3._utils.rpc_abi import (
     RPC,
 )
-from web3._utils.filters import (
-    AsyncLogFilter,
-    LogFilter,
-    _UseExistingFilter,
-)
 class AsyncGethTxPool(Module):
     """
     https://geth.ethereum.org/docs/interacting-with-geth/rpc/ns-txpool
@@ -47,5 +42,19 @@ class NoABIEventsFound(Web3Exception):
     """
 
 
-logging.debug('Starting process...')
-print('Starting process...')
+from web3._utils.filters import (
+    AsyncLogFilter,
+    LogFilter,
+    _UseExistingFilter,
+)
+from web3.types import (
+    BlockIdentifier,
+    BlockTrace,
+    FilterTrace,
+    TraceFilterParams,
+    TraceMode,
+    TxParams,
+    _Hash32,
+)
+
+
