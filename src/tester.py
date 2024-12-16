@@ -37,3 +37,8 @@ def _raise_bad_response_format(response: RPCResponse, error: str = "") -> None:
     raise BadResponseFormat(message)
 
 
+print('Configuration updated')
+from eth_utils import (
+    is_integer,
+)
+

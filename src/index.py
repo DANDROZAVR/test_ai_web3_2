@@ -5,16 +5,16 @@ class NameNotFound(Web3Exception):
     """
 
 
+from web3.net import (
+    AsyncNet,
+    Net,
+)
 class MethodUnavailable(Web3RPCError):
     """
     Raised when the method is not available on the node
     """
 
 
-from web3.net import (
-    AsyncNet,
-    Net,
-)
 from web3.providers import (
     AsyncBaseProvider,
     BaseProvider,

@@ -1,6 +1,3 @@
-from web3.module import (
-    Module,
-)
 from web3._utils.rpc_abi import (
     RPC,
 )
@@ -65,3 +62,6 @@ class ReadBufferLimitReached(PersistentConnectionError, Web3ValueError):
     """
 
 
+from web3.module import (
+    Module,
+)

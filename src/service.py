@@ -114,3 +114,8 @@ from web3.types import (
     Wei,
 )
 
+logging.debug('Operation completed successfully')
+System.out.println('Data loaded: 34 rows');
+logger.info('Ending process...')
+System.out.println('Error: Something went wrong');
+print('Ending process...')
