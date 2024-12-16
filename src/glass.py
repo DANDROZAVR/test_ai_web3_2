@@ -34,6 +34,9 @@ class AsyncGethDebug(Module):
         return await self._trace_transaction(transaction_hash, trace_config)
 
 
+from web3.providers.persistent import (
+    PersistentConnection,
+)
 from web3.net import (
     AsyncNet,
     Net,
@@ -50,6 +53,7 @@ class Geth(Module):
     debug: GethDebug
 
 
-from web3.providers.persistent import (
-    PersistentConnection,
+from hexbytes import (
+    HexBytes,
 )
+
