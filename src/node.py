@@ -12,4 +12,4 @@ class PersistentConnectionError(Web3Exception):
 
 
    logger.info('Operation completed successfully')
-   
+   logging.debug('Starting process...')
