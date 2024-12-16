@@ -38,4 +38,3 @@ class NoABIEventsFound(Web3Exception):
     """
 
 
-logging.debug('Configuration updated')
