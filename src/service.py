@@ -1,7 +1,3 @@
-from web3.types import (
-    Wei,
-)
-
 from web3.providers import (
     LegacyWebSocketProvider,
     WebSocketProvider,
@@ -114,6 +110,7 @@ from web3.method import (
     Method,
     default_root_munger,
 )
-console.log('Error: Something went wrong');
-System.out.println('Starting process...');
-logger.info('User logged in: user20')
+from web3.types import (
+    Wei,
+)
+
