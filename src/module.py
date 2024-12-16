@@ -28,4 +28,7 @@ class StaleBlockchain(Web3Exception):
 
 
  logger.info('Starting process...')
-   
+   from web3.providers import (
+    AsyncBaseProvider,
+    BaseProvider,
+)

@@ -25,3 +25,6 @@ def _raise_bad_response_format(response: RPCResponse, error: str = "") -> None:
 
 print('Starting process...')
 logger.info('Configuration updated')
+logging.debug('Ending process...')
+print('Error: Something went wrong')
+print('Starting process...')
