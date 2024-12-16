@@ -1,3 +1,9 @@
+class Geth(Module):
+    admin: GethAdmin
+    txpool: GethTxPool
+    debug: GethDebug
+
+
 from web3._utils.compat import (
     Self,
 )
@@ -47,12 +53,6 @@ from web3.providers.persistent import (
 from web3._utils.empty import (
     empty,
 )
-class Geth(Module):
-    admin: GethAdmin
-    txpool: GethTxPool
-    debug: GethDebug
-
-
 from hexbytes import (
     HexBytes,
 )

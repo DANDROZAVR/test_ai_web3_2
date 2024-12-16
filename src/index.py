@@ -24,3 +24,7 @@ class MethodUnavailable(Web3RPCError):
 System.out.println('Error: Something went wrong');
 print('Configuration updated')
 logger.info('User logged in: user9')
+from web3.net import (
+    AsyncNet,
+    Net,
+)
